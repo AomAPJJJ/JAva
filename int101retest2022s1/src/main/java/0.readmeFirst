@@ -1,0 +1,25 @@
+1. create a class named "Measure" in "quantity.id999" package.
+1.1 add a private field named "value" which is a "double".
+1.2 add a private final field named "unit" which is a "String".
+1.3 add a public constructor that receives and sets all fields.
+1.4 add a public getter method for "unit".
+1.5 add a public getter/setter method for "value".
+1.6 override the "toString()" method to show the "value" and the "unit".
+//
+2. create a class name "Dimension" in "thing.id999" package.
+2.1 add a private final field named "title" which is a "String".
+2.2 add a private final field named "height" which is a "Measure".
+2.3 add a private final field named "width" which is a "Measure".
+2.4 add a public constructor that receives and sets all fields.
+2.5 override the "toString()" method to show all fields.
+2.6 add a "changeHeight(...)" method that recieves a "double" 
+    (named "newHeight").  This method changes the "value" of 
+    the "height" field to "newHeight". This method returns nothing (void).
+2.7 add a "getHeightUnit()" method that recieves nothing but returns 
+    the "unit" of the "height".
+2.8 add a "getHeightValue()" method that recieves nothing but returns
+    the "value" of the "height".
+//
+3. create a class named "Int101ReExam999" in "test.id999" package.
+3.1 add a public static void method to test 1.3, 1.6, 2.4-2.8.
+
